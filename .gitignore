@@ -1,6 +1,11 @@
 # Data files
-co2.npy
-surface_temp.npy
+data/co2.npy
+data/surface_temp.npy
+data/surface_temp.nc
+data/co2.nc
+
+# Visual studio
+.vscode
 
 # Mac files
 .DS_Store

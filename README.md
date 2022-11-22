@@ -1,27 +1,26 @@
-# Pangeo Gallery Template
+# CMIP6 Community Earth System Model (CESM) Emulator
 
-This repository stores an example gallery repo for the Pangeo Gallery.
-To access, download folder and open in jupyter lab.
-Main use of this repo is to query and download data from CMIP6 models to be used to create deep-learning models.
+This repo queries and downloads data from CMIP6 models to create machine learning-based emulators. The repo is based on the Pangeo library on how to download data from the Pangeo CMIP6 archive on Google Cloud. 
 
-## Installation
+## Install and run
 ```
 conda env create -f environment.yml
+conda activate cesm-em
+jupyter notebook code/basic_search_and_load.ipynb
 ```
 
 ## Content
 - Notebooks to preprocess and download CMIP6 data:
-  - [basic_search_and_load](basic_search_and_load.ipynb): Queries, stores, and animates CMIP6 data
+  - [basic_search_and_load](basic_search_and_load.ipynb): Queries, stores, and animates CMIP6 CESM data
   - [ECS_Gregory_method](ECS_Gregory_method.ipynb): Approximate the equilibrium climate sensitivity (ECS) of CMIP6 models via the "Gregory method" using the first 150 years after abrupt quadrupling of CO2 concentrations 
   - [global_mean_surface_temp](global_mean_surface_temp.ipynb): Calculates the global mean surface temperature using similar methods to "Gregory method"
   - [intake_ESM_example](intake_ESM_example.ipynb): Queries CMIP6 data; experimental and still unstable
   - [precip_frequency_change](precip_frequency_change.ipynb): Calculate the distribution of precipitation intensity
+- Notebooks to create emulators
+  - [python_models_copy](python_models_copy.ipynb): Tests various deep learning models on CMIP6 data. Still in dev.
 - Numpy files containing 3D arrays of lat, lon, time, and variable (instructions on extracting this info below)
 - A configuration file, `binder-gallery.yaml`, which provides important
   configuration parameters (see [pangeo gallery documentation](http://gallery.pangeo.io)).
-- A thumbnail image (`thumbnail.png`), a 200 x 200 px image which represents
-  the gallery content.
-- Github workflows, which make the magic happen! (Don't touch these.)
 
 ## Instructions on Searching and Downloading Data
 - Explore Data:

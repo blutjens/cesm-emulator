@@ -1,4 +1,4 @@
-name: cmip6-urop
+name: cesm-em
 channels:
   - conda-forge
 dependencies:
