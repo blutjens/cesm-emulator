@@ -25,7 +25,8 @@ jupyter notebook code/explore_cesm_data.ipynb
 ## Instructions on Searching and Downloading Data
 - Explore Data:
   - Intro to dataset structure at [link](https://docs.google.com/document/d/1yUx6jr9EdedCOLd--CPdTfGDwEwzPpCF6p1jRmqx-0Q/edit#).
-  - Variable overview at [link](https://docs.google.com/spreadsheets/d/1UUtoz6Ofyjlpx5LdqhKcwHFz2SGoTQV2_yekHyMfL9Y/edit#gid=1221485271). Details at [link](https://github.com/cmip6dr/data_request_snapshots/blob/main/Release/dreqPy/docs/CMIP6_MIP_tables.xlsx).
+  - Variable overview at [link](https://docs.google.com/spreadsheets/d/1UUtoz6Ofyjlpx5LdqhKcwHFz2SGoTQV2_yekHyMfL9Y/edit#gid=1221485271). Search at [link](https://clipc-services.ceda.ac.uk/dreq/mipVars.html). Details at [link](https://github.com/cmip6dr/data_request_snapshots/blob/main/Release/dreqPy/docs/CMIP6_MIP_tables.xlsx).
+  - Explore scenarios at [link](https://wcrp-cmip.github.io/CMIP6_CVs/docs/CMIP6_experiment_id.html).
   - Explore data availability at [link](https://esgf-node.llnl.gov/search/cmip6/)
 - Go to [explore_cesm_data](explore_cesm_data.ipynb)
 - Query data using desired filters:
