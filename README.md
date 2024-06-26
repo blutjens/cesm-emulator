@@ -29,7 +29,7 @@ jupyter notebook code/explore_cesm_data.ipynb
   - Explore scenarios at [link](https://wcrp-cmip.github.io/CMIP6_CVs/docs/CMIP6_experiment_id.html).
   - Explore data availability at [link](https://esgf-node.llnl.gov/search/cmip6/).
   - Overview of registered MIPs [link](https://wcrp-cmip.org/mips/#:~:text=Model%20Intercomparison%20Projects%20(MIPs)%20address,of%20the%20previous%20CMIP%20phases).
-  - Living document with forcings used in CMIP6 dataset [link](https://docs.google.com/document/d/1pU9IiJvPJwRvIgVaSDdJ4O0Jeorv_2ekEtted34K9cA/edit#heading=h.rnazm7g7fsl8).
+  - Details of all forcings in CMIP6 dataset [link](https://docs.google.com/document/d/1pU9IiJvPJwRvIgVaSDdJ4O0Jeorv_2ekEtted34K9cA/edit#heading=h.rnazm7g7fsl8).
 - Go to [explore_cesm_data](explore_cesm_data.ipynb)
 - Query data using desired filters:
   - Need only three filters (experiment_id, table_id, variable_id) but can use more if needed
